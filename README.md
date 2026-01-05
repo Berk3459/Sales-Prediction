@@ -15,23 +15,23 @@ By comparing traditional time series methods with neural networks, the project h
 
 ## Technologies & Libraries
 
-*Python
-*Pandas
-*NumPy
-*Matplotlib
-*Seaborn
-*Statsmodels
-*Scikit-learn
-*TensorFlow / Keras
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Statsmodels
+* Scikit-learn
+* TensorFlow / Keras
 
 
 ## Exploratory Data Analysis (EDA)
 
 The EDA phase included:
 
-*Time series visualization
-*Trend and seasonality analysis
-*missing value handling
+* Time series visualization
+* Trend and seasonality analysis
+* Missing value handling
 
 
 This step provided insights into sales behavior and informed model selection.
@@ -40,24 +40,24 @@ This step provided insights into sales behavior and informed model selection.
 
 To prepare the data for time series modeling:
 
-*Augmented Dickey-Fuller (ADF) Test was applied
-*Differencing and transformations were used to achieve stationarity
-*Stationary vs non-stationary behavior was visually and statistically validated
+* Augmented Dickey-Fuller (ADF) Test was applied
+* Differencing and transformations were used to achieve stationarity
+* Stationary vs non-stationary behavior was visually and statistically validated
 
 ## ARIMA Model
 
-*Identified optimal (p, d, q) parameters
-*Fitted the ARIMA model on stationary data
-*Generated short-term sales forecasts
+* Identified optimal (p, d, q) parameters
+* Fitted the ARIMA model on stationary data
+* Generated short-term sales forecasts
 
 ARIMA proved effective for capturing linear patterns and seasonality.
 
 ## LSTM Model
 
-*Normalized time series data
-*Created sequence windows for supervised learning
-*Built and trained an LSTM neural network
-*Produced multi-step sales forecasts
+* Normalized time series data
+* Created sequence windows for supervised learning
+* Built and trained an LSTM neural network
+* Produced multi-step sales forecasts
 
 LSTM demonstrated strong performance in capturing non-linear and long-term dependencies.
 
